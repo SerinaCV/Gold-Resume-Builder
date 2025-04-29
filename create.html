@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create Resume</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="autosuggest.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Create Your Resume</h1>
+    <nav>
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+  <main>
+    <form id="resumeForm">
+      <label>Full Name:<br><input type="text" id="name" required></label><br><br>
+      <label>Email:<br><input type="email" id="email" required></label><br><br>
+      <label>Summary:<br><textarea id="summary"></textarea></label><br><br>
+      <label>Experience:<br><textarea id="experience"></textarea></label><br><br>
+      <label>Education:<br><textarea id="education"></textarea></label><br><br>
+      <button type="submit">Generate Resume</button>
+    </form>
+    <div id="resumeOutput" style="margin-top: 30px;"></div>
+  </main>
+</body>
+</html>
